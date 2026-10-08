@@ -1,0 +1,206 @@
+<mxfile host="www.draw.io">
+  <diagram name="第 1 页" id="HbDwg9t3nxx75DCldUN2">
+    <mxGraphModel dx="1414" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;flowchart LR\n    A[公務單位] -- 發文 --&gt; B[機場公司] --&gt; C[核發]&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="7t5G0dU4bF_U5Rv25Nn9-33">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;labelBackgroundColor=default;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" vertex="1">
+            <mxGeometry height="200" width="620" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="公務單位" mermaidId="n:A" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="公務單位" id="7t5G0dU4bF_U5Rv25Nn9-137">
+          <mxCell parent="7t5G0dU4bF_U5Rv25Nn9-33" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Noto Sans TC;fontSize=16;labelBackgroundColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" vertex="1">
+            <mxGeometry height="70" width="120" x="80" y="120" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="機場公司" mermaidId="n:B" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="機場公司" id="7t5G0dU4bF_U5Rv25Nn9-138">
+          <mxCell parent="7t5G0dU4bF_U5Rv25Nn9-33" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Noto Sans TC;fontSize=16;labelBackgroundColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" vertex="1">
+            <mxGeometry height="70" width="130" x="286" y="120" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="發&amp;nbsp; 證" mermaidId="n:C" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="核發" id="7t5G0dU4bF_U5Rv25Nn9-139">
+          <mxCell parent="7t5G0dU4bF_U5Rv25Nn9-33" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Noto Sans TC;fontSize=16;labelBackgroundColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" vertex="1">
+            <mxGeometry height="70" width="120" x="490" y="120" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="發文" mermaidId="e:A-&gt;B#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" mermaidBaseValue="發文" id="7t5G0dU4bF_U5Rv25Nn9-140">
+          <mxCell edge="1" parent="7t5G0dU4bF_U5Rv25Nn9-33" source="7t5G0dU4bF_U5Rv25Nn9-137" style="curved=1;startArrow=none;endArrow=block;endSize=7;html=1;fontSize=16;labelBackgroundColor=default;fontFamily=Noto Sans TC;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" target="7t5G0dU4bF_U5Rv25Nn9-138">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:B-&gt;C#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" mermaidBaseValue="" id="7t5G0dU4bF_U5Rv25Nn9-141">
+          <mxCell edge="1" parent="7t5G0dU4bF_U5Rv25Nn9-33" source="7t5G0dU4bF_U5Rv25Nn9-138" style="curved=1;startArrow=none;endArrow=block;endSize=7;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;labelBackgroundColor=default;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" target="7t5G0dU4bF_U5Rv25Nn9-139">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;flowchart LR\n    A[公務單位合約廠商] -- 公務單位發文 --&gt; B[機場公司] \n    B -- 函轉 --&gt; C[航空警察局安全查核] \n    C -- 查核同意函復 --&gt; D[核發]&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="7t5G0dU4bF_U5Rv25Nn9-39">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;labelBackgroundColor=default;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" vertex="1">
+            <mxGeometry height="340" width="820" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="公務單位&lt;div&gt;合約廠商&lt;/div&gt;" mermaidId="n:A" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="公務單位合約廠商" id="7t5G0dU4bF_U5Rv25Nn9-165">
+          <mxCell parent="7t5G0dU4bF_U5Rv25Nn9-39" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Noto Sans TC;fontSize=16;labelBackgroundColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" vertex="1">
+            <mxGeometry height="70" width="124" x="80" y="260" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="機場公司" mermaidId="n:B" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="機場公司" id="7t5G0dU4bF_U5Rv25Nn9-166">
+          <mxCell parent="7t5G0dU4bF_U5Rv25Nn9-39" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Noto Sans TC;fontSize=16;labelBackgroundColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" vertex="1">
+            <mxGeometry height="70" width="130" x="290" y="260" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="航空警察局&lt;div&gt;安全查核&lt;/div&gt;" mermaidId="n:C" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="航空警察局安全查核" id="7t5G0dU4bF_U5Rv25Nn9-167">
+          <mxCell parent="7t5G0dU4bF_U5Rv25Nn9-39" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Noto Sans TC;fontSize=16;labelBackgroundColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" vertex="1">
+            <mxGeometry height="70" width="120" x="490" y="260" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="發&amp;nbsp; 證" mermaidId="n:D" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="核發" id="7t5G0dU4bF_U5Rv25Nn9-168">
+          <mxCell parent="7t5G0dU4bF_U5Rv25Nn9-39" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Noto Sans TC;fontSize=16;labelBackgroundColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" vertex="1">
+            <mxGeometry height="70" width="130" x="680" y="260" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;span&gt;公務單位&lt;/span&gt;&lt;div&gt;&lt;span&gt;發文&lt;/span&gt;&lt;/div&gt;" mermaidId="e:A-&gt;B#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" mermaidBaseValue="公務單位發文" id="7t5G0dU4bF_U5Rv25Nn9-169">
+          <mxCell edge="1" parent="7t5G0dU4bF_U5Rv25Nn9-39" source="7t5G0dU4bF_U5Rv25Nn9-165" style="curved=1;startArrow=none;endArrow=block;endSize=7;html=1;fontSize=16;labelBackgroundColor=default;fontFamily=Noto Sans TC;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" target="7t5G0dU4bF_U5Rv25Nn9-166">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="函轉" mermaidId="e:B-&gt;C#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" mermaidBaseValue="函轉" id="7t5G0dU4bF_U5Rv25Nn9-170">
+          <mxCell edge="1" parent="7t5G0dU4bF_U5Rv25Nn9-39" source="7t5G0dU4bF_U5Rv25Nn9-166" style="curved=1;startArrow=none;endArrow=block;endSize=7;html=1;fontSize=16;labelBackgroundColor=default;fontFamily=Noto Sans TC;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" target="7t5G0dU4bF_U5Rv25Nn9-167">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="函復" mermaidId="e:C-&gt;D#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" mermaidBaseValue="查核同意函復" id="7t5G0dU4bF_U5Rv25Nn9-171">
+          <mxCell edge="1" parent="7t5G0dU4bF_U5Rv25Nn9-39" source="7t5G0dU4bF_U5Rv25Nn9-167" style="curved=1;startArrow=none;endArrow=block;endSize=7;html=1;fontSize=16;labelBackgroundColor=default;fontFamily=Noto Sans TC;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" target="7t5G0dU4bF_U5Rv25Nn9-168">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;flowchart LR\n    A[機場公司合約廠商] --申請文件上傳--&gt; B[機場公司(業管單位審核)]\n    B -- 發文 --&gt; C[機場公司]\n    C -- 函轉 --&gt; D[航空警察局安全查核]\n    D -- 查核同意函復 --&gt; E[核發] &quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="7t5G0dU4bF_U5Rv25Nn9-49">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" vertex="1">
+            <mxGeometry height="480" width="1010" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="機場公司&lt;div&gt;合約廠商&lt;/div&gt;" mermaidId="n:A" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="機場公司合約廠商" id="7t5G0dU4bF_U5Rv25Nn9-195">
+          <mxCell parent="7t5G0dU4bF_U5Rv25Nn9-49" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Noto Sans TC;fontSize=16;labelBackgroundColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" vertex="1">
+            <mxGeometry height="70" width="124" x="80" y="400" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="機場公司&lt;div&gt;(業管單位審核)&lt;/div&gt;" mermaidId="n:B" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="機場公司(業管單位審核)" id="7t5G0dU4bF_U5Rv25Nn9-196">
+          <mxCell parent="7t5G0dU4bF_U5Rv25Nn9-49" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Noto Sans TC;fontSize=16;labelBackgroundColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" vertex="1">
+            <mxGeometry height="70" width="130" x="290" y="400" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="機場公司" mermaidId="n:C" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="機場公司" id="7t5G0dU4bF_U5Rv25Nn9-197">
+          <mxCell parent="7t5G0dU4bF_U5Rv25Nn9-49" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Noto Sans TC;fontSize=16;labelBackgroundColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" vertex="1">
+            <mxGeometry height="70" width="120" x="490" y="400" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="航空警察局&lt;div&gt;安全查核&lt;/div&gt;" mermaidId="n:D" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="航空警察局安全查核" id="7t5G0dU4bF_U5Rv25Nn9-198">
+          <mxCell parent="7t5G0dU4bF_U5Rv25Nn9-49" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Noto Sans TC;fontSize=16;labelBackgroundColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" vertex="1">
+            <mxGeometry height="70" width="130" x="680" y="400" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;發&amp;nbsp; 證&lt;/span&gt;" mermaidId="n:E" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="核發" id="7t5G0dU4bF_U5Rv25Nn9-199">
+          <mxCell parent="7t5G0dU4bF_U5Rv25Nn9-49" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Noto Sans TC;fontSize=16;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" vertex="1">
+            <mxGeometry height="70" width="124" x="876" y="400" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="申請文件&lt;div&gt;上傳&lt;/div&gt;" mermaidId="e:A-&gt;B#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" mermaidBaseValue="申請文件上傳" id="7t5G0dU4bF_U5Rv25Nn9-200">
+          <mxCell edge="1" parent="7t5G0dU4bF_U5Rv25Nn9-49" source="7t5G0dU4bF_U5Rv25Nn9-195" style="curved=1;startArrow=none;endArrow=block;endSize=7;html=1;fontSize=16;labelBackgroundColor=default;fontFamily=Noto Sans TC;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" target="7t5G0dU4bF_U5Rv25Nn9-196">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="發文" mermaidId="e:B-&gt;C#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" mermaidBaseValue="發文" id="7t5G0dU4bF_U5Rv25Nn9-201">
+          <mxCell edge="1" parent="7t5G0dU4bF_U5Rv25Nn9-49" source="7t5G0dU4bF_U5Rv25Nn9-196" style="curved=1;startArrow=none;endArrow=block;endSize=7;html=1;fontSize=16;labelBackgroundColor=default;fontFamily=Noto Sans TC;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" target="7t5G0dU4bF_U5Rv25Nn9-197">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="函轉" mermaidId="e:C-&gt;D#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" mermaidBaseValue="函轉" id="7t5G0dU4bF_U5Rv25Nn9-202">
+          <mxCell edge="1" parent="7t5G0dU4bF_U5Rv25Nn9-49" source="7t5G0dU4bF_U5Rv25Nn9-197" style="curved=1;startArrow=none;endArrow=block;endSize=7;html=1;fontSize=16;labelBackgroundColor=default;fontFamily=Noto Sans TC;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" target="7t5G0dU4bF_U5Rv25Nn9-198">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="函復" mermaidId="e:D-&gt;E#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" mermaidBaseValue="查核同意函復" id="7t5G0dU4bF_U5Rv25Nn9-203">
+          <mxCell edge="1" parent="7t5G0dU4bF_U5Rv25Nn9-49" source="7t5G0dU4bF_U5Rv25Nn9-198" style="curved=1;startArrow=none;endArrow=block;endSize=7;html=1;fontSize=16;labelBackgroundColor=default;fontFamily=Noto Sans TC;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" target="7t5G0dU4bF_U5Rv25Nn9-199">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;flowchart LR\n    A[\&quot;航空、地勤、倉儲業者&lt;br&gt;及其合約廠商\&quot;] -- 發文 --&gt; B[航空警察局安全查核]\n    B -- 函轉 --&gt; C[本公司審查] --&gt; D[核發]&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="7t5G0dU4bF_U5Rv25Nn9-61">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;labelBackgroundColor=default;whiteSpace=wrap;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" vertex="1">
+            <mxGeometry height="640" width="820" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="航空地勤業" mermaidId="n:A" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="航空、地勤、倉儲業者&#xa;及其合約廠商" id="7t5G0dU4bF_U5Rv25Nn9-188">
+          <mxCell parent="7t5G0dU4bF_U5Rv25Nn9-61" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Noto Sans TC;fontSize=16;labelBackgroundColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" vertex="1">
+            <mxGeometry height="70" width="120" x="83" y="560" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="航空警察局&lt;div&gt;安全查核&lt;/div&gt;" mermaidId="n:B" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="航空警察局安全查核" id="7t5G0dU4bF_U5Rv25Nn9-189">
+          <mxCell parent="7t5G0dU4bF_U5Rv25Nn9-61" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Noto Sans TC;fontSize=16;labelBackgroundColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" vertex="1">
+            <mxGeometry height="70" width="130" x="290" y="560" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="機場公司" mermaidId="n:C" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="本公司審查" id="7t5G0dU4bF_U5Rv25Nn9-190">
+          <mxCell parent="7t5G0dU4bF_U5Rv25Nn9-61" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Noto Sans TC;fontSize=16;labelBackgroundColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" vertex="1">
+            <mxGeometry height="70" width="120" x="493" y="560" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="發&amp;nbsp; 證" mermaidId="n:D" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="核發" id="7t5G0dU4bF_U5Rv25Nn9-191">
+          <mxCell parent="7t5G0dU4bF_U5Rv25Nn9-61" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Noto Sans TC;fontSize=16;labelBackgroundColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" vertex="1">
+            <mxGeometry height="70" width="130" x="680" y="560" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="發文" mermaidId="e:A-&gt;B#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.51;entryX=0;entryY=0.5;" mermaidBaseValue="發文" id="7t5G0dU4bF_U5Rv25Nn9-192">
+          <mxCell edge="1" parent="7t5G0dU4bF_U5Rv25Nn9-61" source="7t5G0dU4bF_U5Rv25Nn9-188" style="curved=1;startArrow=none;endArrow=block;endSize=7;html=1;fontSize=16;labelBackgroundColor=default;fontFamily=Noto Sans TC;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.51;entryX=0;entryY=0.5;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" target="7t5G0dU4bF_U5Rv25Nn9-189">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="函轉" mermaidId="e:B-&gt;C#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" mermaidBaseValue="函轉" id="7t5G0dU4bF_U5Rv25Nn9-193">
+          <mxCell edge="1" parent="7t5G0dU4bF_U5Rv25Nn9-61" source="7t5G0dU4bF_U5Rv25Nn9-189" style="curved=1;startArrow=none;endArrow=block;endSize=7;html=1;fontSize=16;labelBackgroundColor=default;fontFamily=Noto Sans TC;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" target="7t5G0dU4bF_U5Rv25Nn9-190">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:C-&gt;D#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" mermaidBaseValue="" id="7t5G0dU4bF_U5Rv25Nn9-194">
+          <mxCell edge="1" parent="7t5G0dU4bF_U5Rv25Nn9-61" source="7t5G0dU4bF_U5Rv25Nn9-190" style="curved=1;startArrow=none;endArrow=block;endSize=7;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;labelBackgroundColor=default;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" target="7t5G0dU4bF_U5Rv25Nn9-191">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="hp4pqdXKbxd0tAPgyhaV-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" value="&lt;font&gt;&lt;b&gt;(一)公務單位&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="70" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hp4pqdXKbxd0tAPgyhaV-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" value="&lt;font&gt;&lt;b&gt;(二)公務單位合約廠商&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="251" x="74" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="hp4pqdXKbxd0tAPgyhaV-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=24;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" value="&lt;font&gt;&lt;b&gt;(三)合約廠商&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="251" x="80" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="hp4pqdXKbxd0tAPgyhaV-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=24;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;" value="&lt;font&gt;&lt;b&gt;(四)航空地勤&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="251" x="80" y="510" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

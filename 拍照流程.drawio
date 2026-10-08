@@ -1,0 +1,151 @@
+<mxfile host="www.draw.io">
+  <diagram name="第 1 页" id="LlwZHnTe1zogZFsa2IT7">
+    <mxGraphModel dx="1131" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;graph TD\n    %% 節點樣式設定\n    classDef default fill:#ffffff,stroke:#333333,stroke-width:1.5px;\n    classDef decision fill:#f0f4f8,stroke:#102a43,stroke-width:2px;\n    classDef finish fill:#e6fffa,stroke:#047857,stroke-width:2px;\n    classDef default fill:#fff,stroke:#000,stroke-width:2px,color:#000,text-align:left;\n\n    Step1[\&quot;1. 線上預約&lt;br/&gt;(通行證線上作業平台：上傳文件/線上簽名/預約)\&quot;] --&gt; Branch1{申辦證件類型}\n\n    Branch1 -- 短期證 --&gt; Pay[\&quot;開繳費單繳費\&quot;]\n    Branch1 -- 長期證 --&gt; Step2\n\n    Pay --&gt; Step2[\&quot;2. 自助報到\&quot;]\n    \n    Step2 --&gt; Step3[\&quot;3. 觀看簡報等候叫號\&quot;]\n    \n    Step3 --&gt; Branch2{照證方式}\n    \n    Branch2 -- 長期證 --&gt; PhotoA[\&quot;4. 使用自助拍照機台拍照\&quot;]\n    Branch2 -- 短期證 --&gt; PhotoB[\&quot;4. 依作業人員指示人工照證\&quot;]\n    \n    PhotoA --&gt; Step5[\&quot;5. 卡片製作\&quot;]\n    PhotoB --&gt; Step5\n    \n    Step5 --&gt; Step6[\&quot;6. 等待叫號 / 唱名取卡\&quot;]\n    Step6 --&gt; EndNode([\&quot;7. 取得證卡\&quot;]):::finish\n\n    class Branch1,Branch2 decision;&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="vUMzJ2gt4mihbOYjeBtv-35">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;fontStyle=1;fontSize=20;strokeWidth=3;" vertex="1">
+            <mxGeometry height="1139" width="665" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="vUMzJ2gt4mihbOYjeBtv-67" edge="1" parent="vUMzJ2gt4mihbOYjeBtv-35" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=3;exitX=0.78;exitY=0.973;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="102.999" as="sourcePoint" />
+            <mxPoint x="531.02" y="161.97" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="1. 可拍照通知&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;至通行證線上作業平台&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;線上預約拍照&lt;/span&gt;&lt;/div&gt;" mermaidId="n:Step1" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="1. 線上預約&#xa;(通行證線上作業平台：上傳文件/線上簽名/預約)" id="vUMzJ2gt4mihbOYjeBtv-36">
+          <mxCell parent="vUMzJ2gt4mihbOYjeBtv-35" style="html=1;whiteSpace=wrap;strokeWidth=3;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Noto Sans TC;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;fontStyle=1" vertex="1">
+            <mxGeometry height="73" width="416" x="194.5" y="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="vUMzJ2gt4mihbOYjeBtv-62" edge="1" parent="vUMzJ2gt4mihbOYjeBtv-35" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;startSize=8;endSize=8;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;fontStyle=1;strokeWidth=3;entryX=0.82;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="vUMzJ2gt4mihbOYjeBtv-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="532.3918252427184" y="344" as="sourcePoint" />
+            <mxPoint x="532.0019999999998" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="開繳費單繳費" mermaidId="n:Pay" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="開繳費單繳費" id="vUMzJ2gt4mihbOYjeBtv-38">
+          <mxCell parent="vUMzJ2gt4mihbOYjeBtv-35" style="html=1;whiteSpace=wrap;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Noto Sans TC;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;fontStyle=1" vertex="1">
+            <mxGeometry height="64" width="156" x="454.5" y="290" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="vUMzJ2gt4mihbOYjeBtv-69" edge="1" parent="vUMzJ2gt4mihbOYjeBtv-35" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=3;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="281.85" y="490" as="sourcePoint" />
+            <mxPoint x="281.85" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="2. 至 報到機 取得 報到號碼" mermaidId="n:Step2" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="2. 自助報到" id="vUMzJ2gt4mihbOYjeBtv-39">
+          <mxCell parent="vUMzJ2gt4mihbOYjeBtv-35" style="html=1;whiteSpace=wrap;strokeWidth=3;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Noto Sans TC;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;fontStyle=1" vertex="1">
+            <mxGeometry height="80" width="416" x="190" y="410" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="3. 觀看簡報等候叫號" mermaidId="n:Step3" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="3. 觀看簡報等候叫號" id="vUMzJ2gt4mihbOYjeBtv-40">
+          <mxCell parent="vUMzJ2gt4mihbOYjeBtv-35" style="html=1;whiteSpace=wrap;strokeWidth=3;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Noto Sans TC;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;fontStyle=1" vertex="1">
+            <mxGeometry height="80" width="416" x="190" y="545" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="4. 自助拍照機台" mermaidId="n:PhotoA" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="4. 使用自助拍照機台拍照" id="vUMzJ2gt4mihbOYjeBtv-42">
+          <mxCell parent="vUMzJ2gt4mihbOYjeBtv-35" style="html=1;whiteSpace=wrap;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Noto Sans TC;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;fontStyle=1" vertex="1">
+            <mxGeometry height="73" width="190" x="191" y="680" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="4. 人工照證" mermaidId="n:PhotoB" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="4. 依作業人員指示人工照證" id="vUMzJ2gt4mihbOYjeBtv-43">
+          <mxCell parent="vUMzJ2gt4mihbOYjeBtv-35" style="html=1;whiteSpace=wrap;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Noto Sans TC;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;fontStyle=1" vertex="1">
+            <mxGeometry height="73" width="156" x="450" y="680" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="5. 印製及開通證卡" mermaidId="n:Step5" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="5. 卡片製作" id="vUMzJ2gt4mihbOYjeBtv-44">
+          <mxCell parent="vUMzJ2gt4mihbOYjeBtv-35" style="html=1;whiteSpace=wrap;strokeWidth=3;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Noto Sans TC;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;fontStyle=1" vertex="1">
+            <mxGeometry height="64" width="409" x="197" y="815" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="6. 唱名取證" mermaidId="n:Step6" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="6. 等待叫號 / 唱名取卡" id="vUMzJ2gt4mihbOYjeBtv-45">
+          <mxCell parent="vUMzJ2gt4mihbOYjeBtv-35" style="html=1;whiteSpace=wrap;strokeWidth=3;fillColor=default;strokeColor=default;fontColor=default;fontFamily=Noto Sans TC;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;fontStyle=1" vertex="1">
+            <mxGeometry height="54" width="409" x="197" y="940" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:Step5-&gt;Step6#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="vUMzJ2gt4mihbOYjeBtv-57">
+          <mxCell edge="1" parent="vUMzJ2gt4mihbOYjeBtv-35" source="vUMzJ2gt4mihbOYjeBtv-44" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=20;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;fontStyle=1;strokeWidth=3;" target="vUMzJ2gt4mihbOYjeBtv-45">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="vUMzJ2gt4mihbOYjeBtv-61" edge="1" parent="vUMzJ2gt4mihbOYjeBtv-35" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;startSize=8;endSize=8;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;fontStyle=1;strokeWidth=3;entryX=0.219;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" target="vUMzJ2gt4mihbOYjeBtv-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="281.5" y="240" as="sourcePoint" />
+            <mxPoint x="281.5" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vUMzJ2gt4mihbOYjeBtv-59" parent="vUMzJ2gt4mihbOYjeBtv-35" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;fontStyle=1;fontSize=20;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="長期證" vertex="1">
+          <mxGeometry height="80" width="175.5" x="194.5" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vUMzJ2gt4mihbOYjeBtv-68" edge="1" parent="vUMzJ2gt4mihbOYjeBtv-35" source="vUMzJ2gt4mihbOYjeBtv-60" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;strokeWidth=3;" target="vUMzJ2gt4mihbOYjeBtv-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vUMzJ2gt4mihbOYjeBtv-60" parent="vUMzJ2gt4mihbOYjeBtv-35" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;fontStyle=1;fontSize=20;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;月份施工證&lt;/div&gt;&lt;div&gt;月份工作證&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="156" x="454.5" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="vUMzJ2gt4mihbOYjeBtv-71" edge="1" parent="vUMzJ2gt4mihbOYjeBtv-35" source="vUMzJ2gt4mihbOYjeBtv-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;startSize=8;endSize=8;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;fontStyle=1;strokeWidth=3;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.21;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="vUMzJ2gt4mihbOYjeBtv-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="282" y="130" as="sourcePoint" />
+            <mxPoint x="281.5" y="203" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="" mermaidId="e:PhotoB-&gt;Step5#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=1;entryY=0.04;" mermaidBaseValue="" id="vUMzJ2gt4mihbOYjeBtv-73">
+          <mxCell edge="1" parent="vUMzJ2gt4mihbOYjeBtv-35" style="startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.208;entryY=-0.062;rounded=0;fontSize=20;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;fontStyle=1;strokeWidth=3;entryDx=0;entryDy=0;entryPerimeter=0;" target="vUMzJ2gt4mihbOYjeBtv-44">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="281.5" y="754" as="sourcePoint" />
+              <mxPoint x="281.5" y="831" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:PhotoB-&gt;Step5#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=1;entryY=0.04;" mermaidBaseValue="" id="vUMzJ2gt4mihbOYjeBtv-74">
+          <mxCell edge="1" parent="vUMzJ2gt4mihbOYjeBtv-35" source="vUMzJ2gt4mihbOYjeBtv-40" style="startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);entryX=0.831;entryY=0;rounded=0;fontSize=20;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;fontStyle=1;strokeWidth=3;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.219;exitY=0.963;exitDx=0;exitDy=0;exitPerimeter=0;">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="281.5" y="630" as="sourcePoint" />
+              <mxPoint x="281.5" y="680" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:PhotoB-&gt;Step5#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=1;entryY=0.04;" mermaidBaseValue="" id="vUMzJ2gt4mihbOYjeBtv-79">
+          <mxCell edge="1" parent="vUMzJ2gt4mihbOYjeBtv-35" style="startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;rounded=0;fontSize=20;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;fontStyle=1;strokeWidth=3;">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="532.5" y="625" as="sourcePoint" />
+              <mxPoint x="532" y="680" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="" mermaidId="e:PhotoB-&gt;Step5#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=1;entryY=0.04;" mermaidBaseValue="" id="Qx28NI0yZbdM3nYAM7hw-4">
+          <mxCell edge="1" parent="vUMzJ2gt4mihbOYjeBtv-35" style="startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.208;entryY=-0.062;rounded=0;fontSize=20;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;fontStyle=1;strokeWidth=3;entryDx=0;entryDy=0;entryPerimeter=0;">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="532.1" y="753" as="sourcePoint" />
+              <mxPoint x="532.6" y="815" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="VFFIYvMqU3TWs_N-ginj-1" edge="1" parent="1" source="vUMzJ2gt4mihbOYjeBtv-36" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="680" y="530" as="sourcePoint" />
+            <mxPoint x="680" y="76.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VFFIYvMqU3TWs_N-ginj-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;fontStyle=1;fontSize=20;" value="請於審核後60天內預約" vertex="1">
+          <mxGeometry height="60" width="120" x="670" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VFFIYvMqU3TWs_N-ginj-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Noto Sans TC;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BTC;fontStyle=1" value="務必攜帶:&lt;div&gt;身份證件(正本)&lt;/div&gt;&lt;div&gt;換發之舊證&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="140" x="660" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Qx28NI0yZbdM3nYAM7hw-1" edge="1" parent="1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=3;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="532.1" y="490" as="sourcePoint" />
+            <mxPoint x="532.1" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
